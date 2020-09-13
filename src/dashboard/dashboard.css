@@ -1,0 +1,13 @@
+#dashboard-wrapper {
+	margin-left: 20%;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#container {
+	padding: 2.5em 2em;
+}

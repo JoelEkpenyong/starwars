@@ -1,0 +1,42 @@
+.cards-wrapper {
+	width: 100%;
+	display: inline-flex;
+	gap: 1.5em;
+	padding-bottom: 4em;
+	flex-wrap: wrap;
+}
+.cards-wrapper a {
+	flex-grow: 1;
+}
+
+.card {
+	border-radius: 10px;
+	border: none;
+	background: #ffffff;
+	box-shadow: 0px 0px 46px #0000000F;
+}
+
+.cards-wrapper .card-header {
+	background-color: #fff;
+	border: none;
+	padding-bottom: 4em;
+}
+
+.cards-wrapper .card-header,
+.cards-wrapper .card-title {
+	font-size: 2em;
+	color: #04014e;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+.cards-wrapper .card-subtitle {
+	font-size: 1em;
+	color: #666d92;
+	padding-bottom: 1em;
+}
+
+.cards-wrapper .card-subtitle span {
+	color: #5fb960;
+	padding-right: 1em;
+}

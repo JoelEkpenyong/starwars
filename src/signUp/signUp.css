@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,400;1,700&display=swap');
+
+#sign_up {
+	height: 100vh;
+	width: 100%;
+}
+#sign_up .row {
+	height: 100%;
+	width: 100%;
+}
+.welcome_text {
+	background-color: #fff6d3;
+	font-size: .8rem;
+}
+.welcome_text img {
+	width: 70%;
+}
+.welcome_text h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 3.2em;
+	line-height: 1.5em;
+}
+.form_wrapper {
+	font-size: .9rem;
+}
+.form_wrapper h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 2.4em;
+	line-height: 1.5em;
+}
+form button.btn-primary {
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	background-color: #000 !important;
+	outline: 0;
+	border: 0;
+	font-size: 1.4em;
+	border-radius: 4px;
+	padding: 1em;
+}
+form button.btn-primary:hover,
+form button.btn-primary:focus {
+	outline: none;
+	border: none;
+}
+form .form-control {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.6em;
+	color: #8d99ae;
+
+	background: #fafafa 0% 0% no-repeat padding-box;
+	border: 1px solid #8d99ae;
+	border-radius: 4px;
+	opacity: 1;
+	padding: 1.25em;
+}
+form .form-label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.4em;
+	color: #2b2d42;
+	font-weight: 600;
+}
+
+.login_form img {
+	width: 20%;
+}
+
+footer {
+	font-size: 1.2em;
+	color: #859BBCF5;
+}
+
+/* responsive styling */
+
+@media screen and (min-width: 1200px) {
+	.welcome_text h3 {
+		width: 70%;
+	}
+	.form_wrapper {
+		margin-left: 10rem;
+	}
+}
+
+@media screen and (min-width: 1700px) {
+	.login_form img,
+	.welcome_text img {
+		width: inital;
+	}
+	.welcome_text {
+		font-size: 1rem;
+	}
+	.form_wrapper {
+		width: 40%;
+		margin-left: 15rem;
+		font-size: 1rem;
+	}
+}

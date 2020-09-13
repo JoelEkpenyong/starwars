@@ -1,0 +1,29 @@
+.table-data .card-header {
+	border-radius: 10px;
+	border: none;
+	background: #ffffff;
+}
+.table-data .card-header {
+	background-color: #fff;
+	border: none;
+}
+.table-data .table th,
+.table-data .table td {
+	border: none;
+	height: 80px;
+}
+.table-data .card-header {
+	font-size: 2.4em;
+	color: #2c2c2c;
+}
+.table-data thead th {
+	font-size: 1.6em;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	color: #a3abb7;
+}
+.table-data tbody td {
+	font-size: 1.6em;
+	font-family: 'Rubik', sans-serif;
+	color: #2c2c2c;
+}

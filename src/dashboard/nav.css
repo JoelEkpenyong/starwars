@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap');
+
+#side_nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	padding: 3rem 0 3rem 3rem;
+	gap: 5em;
+	border: 0.4px solid #dbe3ee;
+}
+#side_nav ul {
+	display: inline-flex;
+	flex-direction: column;
+	gap: 3em;
+}
+#side_nav ul li {
+	width: 100%;
+	list-style-type: none;
+	color: #a3abb7;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.6em;
+	font-weight: 500;
+	position: relative;
+	display: inline-flex;
+	align-items: baseline;
+	gap: 2.5em;
+	transition: all .5s ease;
+}
+
+#side_nav ul li svg {
+	fill: #a3abb7;
+}
+
+#side_nav ul li:hover {
+	color: #000;
+}
+
+#side_nav ul li:hover svg {
+	fill: #fddb00;
+}
+
+#side_nav ul li:after {
+	content: "";
+	border: 1px solid #fddb00;
+	height: 3rem;
+	display: block;
+	position: absolute;
+	opacity: 0;
+	top: -5px;
+	right: 0;
+	z-index: -1;
+}
+#side_nav ul li:hover:after {
+	opacity: 1;
+}
+#top_nav .top_tab {
+	padding: 0 3em;
+	border-bottom: 0.4px solid #dbe3ee;
+}
+.top_tab .nav_icons {
+	gap: 2.5em;
+}
+.nav_icons svg {
+	font-size: 2em;
+}
+.top_tab h4 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-family: 'Rubik', sans-serif;
+}
+#top_nav .bottom_tab {
+	padding: 1em 2.5em;
+}
+.bottom_tab form {
+	width: 30%;
+	gap: 2em;
+}
+.bottom_tab form .form-control {
+	font-size: 1.4em;
+	color: #8d99ae;
+
+	background-color: #fafafa;
+	border: 1px solid #efefef;
+	border-radius: 4px;
+}
+.info_area {
+	gap: 2.5em;
+}
+.info_area a {
+	text-decoration: none;
+	color: #000;
+}
+.info_area a:hove {
+	opacity: .8;
+	color: #000;
+}
+.info_area p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.6em;
+	font-weight: 300;
+}
